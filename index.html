@@ -4,98 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhishek's Portfolio</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:wght@300&family=Sacramento&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    <table cellspacing="25px">
-        <tr>
-            <td><img src="images/mehh.jpeg" alt="photo meri" height="350px" width="200px"></td>
-            <td><h1>Abhishek Upadhyay</h1>
-            <p> <em>baka developer</em> </p>
-            <p><em>Problem Setter Intern at iMocha</em></p>
-            <p>Student at Madan Mohan Malaviya University of Technology</p>
-            <p>IT-24</p></td>
-        </tr>
-    </table>
-    
+    <div class="top-container">
+        <img src="images/cloud.png" class="top-cloud" alt="cloud-img">
+        <h1>Hello There.</h1>
+        <p>I am Abhishek Upadhay.</p>
+        <!-- <p>A baka developer</p> -->
+        <img src="images/cloud.png" alt="cloud-img" class="bottom-cloud">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
     <hr>
-    <h3>Educational Details</h3>
-    <ul>
-        <table>
-            <thead>
-                <th>What I did</th>
-                <th>When I did</th>
-                <th>Where I did</th>
-            </thead>
-            <tr>
-                <td>High School</td>
-                <td>2018</td>
-                <td>Central Academy</td>
-            </tr>
-            <tr>
-                <td>Intermediate</td>
-                <td>2020</td>
-                <td>Central Academy</td>
-            </tr>
-            <tr>
-                <td>College</td>
-                <td>MMMUT IT</td>
-                <td>2020-24</td>
-            </tr>
-        </table>
-    </ul>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>
-                <p>Python</p>
-                <p>C++</p>
-                <p>Web Development</p>
+
+    <div class="middle-container">
+        <div class="profile">
+            <img src="images/icon2.jpg" height="180px" width="180px" alt="my-photo" class="pic">
+            <h2>Hello There.</h2>
+            <p>I'm a baka developer.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="skill-1" src="images/developer.png" alt="web-developer">
+                <h3>Web Development</h3>
+                <p>Though I'm a newbie to Web Development, I'm a fast learner.</p>
+            </div>
+            <div class="skill-row">
+                <img class="skill-2" src="images/coding.png" alt="problem-solver">
+                <h3>Problem Solving</h3>
+                <p>I've solved over 800 problems on various platforms, namely : LeetCode, GeeksForGeeks, Hackerrank, Hackerearth and Codeforces</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>Let's connect on social media</h3>
+            <p>You can get in touch with me. Drop an email or follow and text me on social media.</p>
+            <p></p>
+            <a class="btn" href="mailto:abhishek.all.2001@gmail.com">CONTACT ME!</a>
+            <p></p>
+
+            <br>
+        </div>
+    </div>
     
-            </td>
-            <td>
-                <p>⭐⭐⭐⭐⭐</p>
-                <p>⭐⭐⭐⭐</p>
-                <p>⭐⭐⭐</p>
-            </td>
-            <td>
-                <p>Photography</p>
-                <p>Content Writing</p>
-                <p>Time Management</p>
     
-            </td>
-            <td>
-                <p>⭐⭐⭐⭐</p>
-                <p>⭐⭐⭐⭐</p>
-                <p>⭐⭐⭐</p>
-            </td>
-        </tr>
-    
-    </table>
-    <h3>Contact Me</h3>
-    <ul>
-        <li>Email : abhishek.all.2001@gmail.com</li>
-        <li>Phone : 7355419928</li>
-        <!-- <li></li> -->
-    </ul>
-    <a href="https://www.instagram.com/__.abhishek_u.__/" target="_blank"><img src="images/instagram.jpg" alt="Instagram Profile" width="40px" height="40px"></a>
-    <form action="index.html" method="post" action="mailto@abhishek.all.2001@gmail.com" enctype="UTF-8">
-        <table>
-            <tr>
-                <td><label>Your Name : </label></td>
-                <td><input type="text" name="yourName"></td>
-            </tr>
-            <tr>
-                <td><label>Your Email : </label></td>
-                <td><input type="email" name="yourEmail"></td>
-            </tr>
-        </table>
-        <br>
-        <textarea name="yourMessage" cols="10" rows="10"></textarea>
-        
-        <input type="button" value="Submit">
-        <!-- <br> -->
-    </form>
+    <div class="bottom-container">
+        <a href="https://www.linkedin.com/in/abhishek-upadhyay-87bbb3228/" target="_blank"><img src="images/linkedin.png" alt="Linkedin Profile" width="40px" height="40px" id="linkedin"></a>
+        <a href="https://www.instagram.com/__.abhishek_u.__/" target="_blank"><img src="images/instagram.png" alt="Instagram Profile" width="40px" height="40px" id="instagram"></a>
+        <a href="https://github.com/trickycat10" target="_blank"><img src="images/github.png" alt="Github Profile" width="40px" height="40px" id="github"></a>
+        <h6>© Abhishek Upadhay.</h6>
+    </div>
+
 
 </body>
 </html>
